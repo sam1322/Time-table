@@ -43,7 +43,5 @@ app.post('/sem52',(req,res)=>{
 app.post('/sem53',(req,res)=>{
     res.render("sem53.ejs")
 })
-app.listen(3000,()=>{
-    console.log('Running at Port 3000')
-
-})
+app.listen(process.env.PORT || 3000, 
+	() => console.log("Server is running..."));
