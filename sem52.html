@@ -1,0 +1,200 @@
+ 
+ <!-- I have some more work to do  but i am stoping for now -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Semester 5</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ </head>
+ <style>
+    .bord{
+        border: 1px solid black;
+      
+    }
+    .col-sm-, .col-sm-8half {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-, .col-sm-8half {
+        float: left;
+    }
+    .col-sm- {
+        width: 29.16666667%;
+    }
+    .col-sm-8half {
+        width: 70.83333333%;
+    }
+}
+    .grow {
+  padding:10px 10px  10px 10px;
+  border-radius: 10px;
+  /* height: 49px;
+  width: 22%; */
+        margin:5px;
+  float: left;
+  position: relative;
+  transition: width 1s;
+  transition: background-color 0.5s ease;
+  background-color: orange;
+  text-align:center;
+  /* height:90px; */
+  width: 100%;
+ 
+    vertical-align: middle;
+}
+.grow:hover {
+  padding:15px;
+  background-color: red;
+  width:300px;
+  text-align:center;
+ 
+}
+.col-sm-1-5 { width: 12,5%; } // = 8,3333 + 4,16667
+.col-sm-2-5 { width: 20,83333%; } // = 16,6666 + 4,16667
+.col-sm-3-5 { width: 29,16667%; } // = 25 + 4,16667
+.col-sm-4-5 { width: 37,5%; } // = 33,3333 + 4,16667
+.col-sm-5-5 { width: 45,83333%; } // = 41,6667 + 4,16667
+.col-sm-6-5 { width: 54,16667%; } // = 50 + 4,16667
+.col-sm-7-5 { width: 62,5%; } // = 58,3333 + 4,16667
+.col-sm-8-5 { width: 70,83333%; } // = 66,6666 + 4,16667
+.col-sm-9-5 { width: 79,16667%; } // = 75 + 4,16667
+.col-sm-10-5 { width: 87,5%; } // = 83,3333 + 4,16667
+.col-sm-11-5 { width: 95,8333%; } 
+
+body{
+    background: black;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    color:black;
+    text-align: center;
+}
+
+ </style>
+ <body>
+    <nav aria-label="breadcrumb bg-dark"  >
+        <ol class="breadcrumb bg-dark">
+          <li class="breadcrumb-item">Home</a></li>
+          <li class="breadcrumb-item" >Library</li>
+        </ol>
+      </nav>
+     <h1>Time Table for Semester 5 batch - 2</h1>
+     
+             <!-- <div class="col-sm-1-5 col-xl bord grow overflow-auto "></div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">8 - 8:50 am</div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">9 - 9:50 am</div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">10 - 10:50 am</div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">11 - 11:50 am</div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">12 - 12:50 pm</div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">1 - 1:50 pm</div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">2 - 2:50 pm</div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">3 - 3:50 pm</div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">4 - 4:50 pm</div>
+             <div class="col-sm-1-5 col-xl bord grow overflow-auto ">5 - 5:50 pm</div> -->
+             
+       <div class="container">
+           <div class="row">
+               <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Days/time</div>
+               <div class="col-sm-2-5 col-xl bord grow overflow-auto ">8 - 8:50 am</div>
+               <div class="col-sm-3-5 col-xl bord grow overflow-auto ">9 - 9:50 am</div>
+               <div class="col-sm-4-5 col-xl bord grow overflow-auto ">10 - 10:50 am</div>
+               <div class="col-sm-5-5 col-xl bord grow overflow-auto ">11 - 11:50 am</div>
+               <div class="col-sm-6-5 col-xl bord grow overflow-auto ">12 - 12:50 pm</div>
+               <div class="col-sm-7-5 col-xl bord grow overflow-auto ">1 - 1:50 pm</div>
+               <div class="col-sm-8-5 col-xl bord grow overflow-auto ">2 - 2:50 pm</div>
+               <div class="col-sm-9-5 col-xl bord grow overflow-auto ">3 - 3:50 pm</div>
+               <div class="col-sm-10-5 col-xl bord grow overflow-auto ">4 - 4:50 pm</div>
+               <div class="col-sm-11-5 col-xl bord grow overflow-auto ">5 - 5:50 pm</div>
+           </div>
+           <div class="row">
+           <div class="row">
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Monday</div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto "> </div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Multimedia Applications ITC15 Apoorvi Sood  </div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto "> </div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">  </div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Advanced Database Management ITD09/Ankita Bansal </div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto "> </div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Theory of Computation ITC16 Devender Kumar Yadav</div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto "> </div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Entrepreneurship - EO009/ </div>
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto "></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Tuesday</div>
+            <div class="col-sm-2-5 col-xl bord grow overflow-auto "> </div>
+            <div class="col-sm-3-5 col-xl bord grow overflow-auto ">Design & Analysis Algorithm -ITC17/Devender Kumar Yadav</div>
+            <div class="col-sm-4-5 col-xl bord grow overflow-auto ">Theory of Computation ITC16 Devender Kumar Yadav</div>
+            <div class="col-sm-5-5 col-xl bord grow overflow-auto ">Linux/Unix Lab -ITC18/ Abhishek Kumar Gaur</div>
+            <div class="col-sm-6-5 col-xl bord grow overflow-auto "></div>
+
+            <div class="col-sm-7-5 col-xl bord grow overflow-auto "></div> 
+            <div class="col-sm-8-5 col-xl bord grow overflow-auto ">Entrepreneurship - EO009/ </div>
+            <div class="col-sm-9-5 col-xl bord grow overflow-auto "> </div>   
+            <div class="col-sm-10-5 col-xl bord grow overflow-auto ">Multimedia Applications ITC15 Apoorvi Sood  </div>
+            <div class="col-sm-11-5 col-xl bord grow overflow-auto "></div>
+           
+        </div>
+        <div class="row">
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Wednesday</div>
+            <div class="col-sm-2-5 col-xl bord grow overflow-auto ">Design & Analysis Algorithm -ITC17/Devender Kumar Yadav</div>
+            <div class="col-sm-3-5 col-xl bord grow overflow-auto "> </div>
+            <div class="col-sm-4-5 col-xl bord grow overflow-auto ">Linux/Unix Lab -ITC18/ Abhishek Kumar Gaur</div>
+            <div class="col-sm-5-5 col-xl bord grow overflow-auto ">Theory of Computation ITC16 Devender Kumar Yadav</div>
+            <div class="col-sm-6-5 col-xl bord grow overflow-auto "></div>
+            <div class="col-sm-7-5 col-xl bord grow overflow-auto ">Advanced Database Management ITD09/Ankita Bansal </div>
+            <div class="col-sm-8-5 col-xl bord grow overflow-auto "></div>
+            <div class="col-sm-9-5 col-xl bord grow overflow-auto "></div>
+            <div class="col-sm-10-5 col-xl bord grow overflow-auto "></div>
+            <div class="col-sm-11-5 col-xl bord grow overflow-auto "></div>
+           
+            
+           
+        </div>
+        <div class="row">
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Thursday</div>
+           <div class="col-sm-2-5 col-xl bord grow overflow-auto ">    </div>
+           <div class="col-sm-3-5 col-xl bord grow overflow-auto ">Multimedia Applications ITC15 Apoorvi Sood  </div>
+           <div class="col-sm-4-5 col-xl bord grow overflow-auto ">Entrepreneurship - EO009/ </div>
+           <div class="col-sm-5-5 col-xl bord grow overflow-auto ">    </div>
+           <div class="col-sm-6-5 col-xl bord grow overflow-auto ">Theory of Computation ITC16 Devender Kumar Yadav</div>
+
+            <div class="col-sm-7-5 col-xl bord grow overflow-auto ">    </div>
+            <div class="col-sm-8-5 col-xl bord grow overflow-auto ">    </div>   
+            <div class="col-sm-9-5 col-xl bord grow overflow-auto ">Design & Analysis Algorithm -ITC17/Devender Kumar Yadav</div>
+                    
+            <div class="col-sm-10-5 col-xl bord grow overflow-auto ">Advanced Database Management ITD09/Ankita Bansal </div>
+            <div class="col-sm-11-5 col-xl bord grow overflow-auto ">    </div>      
+        </div>
+        <div class="row">
+            <div class="col-sm-1-5 col-xl bord grow overflow-auto ">Friday</div>
+            <div class="col-sm-2-5 col-xl bord grow overflow-auto "> </div>
+            <div class="col-sm-3-5 col-xl bord grow overflow-auto ">Multimedia Applications ITC15 Apoorvi Sood  </div>
+
+           <div class="col-sm-4-5 col-xl bord grow overflow-auto ">    </div>
+           <div class="col-sm-5-5 col-xl bord grow overflow-auto ">    </div>
+           <div class="col-sm-6-5 col-xl bord grow overflow-auto ">    </div>
+           <div class="col-sm-7-5 col-xl bord grow overflow-auto ">Entrepreneurship - EO009/ </div>
+           <div class="col-sm-8-5 col-xl bord grow overflow-auto ">    </div>
+           <div class="col-sm-9-5 col-xl bord grow overflow-auto ">Advanced Database Management ITD09/Ankita Bansal </div>
+           <div class="col-sm-10-5 col-xl bord grow overflow-auto ">Design & Analysis Algorithm -ITC17/Devender Kumar Yadav</div>         
+            <div class="col-sm-11-5 col-xl bord grow overflow-auto ">    </div>      
+       
+        </div>
+       </div>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ </body>
+ </html> 
+ 
+ 
+ 
