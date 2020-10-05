@@ -9,6 +9,6 @@ And unfortunately the time tables are not customable which I will make in the fu
 If so then you can just type npm start in the command line in the same folder to run it.**
 	or
 ## View it online
-** You can view the website through this site https://time-table-1.herokuapp.com/ **
+**You can view the website through this site https://time-table-1.herokuapp.com/**
 
 #### That's it folks
